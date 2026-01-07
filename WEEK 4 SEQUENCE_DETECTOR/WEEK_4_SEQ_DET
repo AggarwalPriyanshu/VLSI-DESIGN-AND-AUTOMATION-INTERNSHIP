@@ -1,0 +1,277 @@
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+PreRoute extraction is honoring NDR/Shielding/ExtraSpace for clock nets.
+Using capacitance table file ...
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+PreRoute RC Extraction DONE (CPU Time: 0:00:00.0  Real Time: 0:00:00.0  MEM: 1404.453M)
+Starting delay calculation for Setup views
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: sequence_detector_1011
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1414.02)
+Total number of fetched objects 18
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+End delay calculation. (MEM=1496.92 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1469.84 CPU=0:00:00.0 REAL=0:00:01.0)
+*** Done Building Timing Graph (cpu=0:00:00.1 real=0:00:01.0 totSessionCpu=0:00:15.3 mem=1469.8M)
+
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Setup views included:
+ WORST 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.000  |   N/A   |  0.000  |
+|           TNS (ns):|  0.000  |   N/A   |  0.000  |
+|    Violating Paths:|    0    |   N/A   |    0    |
+|          All Paths:|    0    |   N/A   |    0    |
++--------------------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 90.323%
+Routing Overflow: 0.00% H and 0.00% V
+------------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 0.13 sec
+Total Real time: 1.0 sec
+Total Memory Usage: 1443.101562 Mbytes
+*** timeDesign #1 [finish] : cpu/real = 0:00:00.1/0:00:00.5 (0.2), totSession cpu/real = 0:00:15.3/0:01:31.9 (0.2), mem = 1443.1M
+innovus 1> 
+
+
+
+
+
+innovus 1> report_power
+
+Power Net Detected:
+        Voltage	    Name
+             0V	    VSS
+           0.9V	    VDD
+Using Power View: WORST.
+Set Default Frequency 100MHz.
+
+Begin Power Analysis
+
+             0V	    VSS
+           0.9V	    VDD
+
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1089.14MB/2594.02MB/1089.16MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1089.26MB/2594.02MB/1089.26MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1089.32MB/2594.02MB/1089.32MB)
+
+Begin Processing Signal Activity
+
+
+Starting Levelizing
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT)
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 10%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 20%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 30%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 40%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 50%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 60%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 70%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 80%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 90%
+
+Finished Levelizing
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT)
+
+Starting Activity Propagation
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT)
+** INFO:  (VOLTUS_POWR-1356): No default input activity has been set. Defaulting to 0.2.
+Use 'set_default_switching_activity -input_activity' command to change the default activity value.
+
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 10%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 20%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 30%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 40%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 50%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 60%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 70%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 80%
+
+Finished Activity Propagation
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT)
+Ended Processing Signal Activity: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1089.57MB/2594.02MB/1089.57MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 0
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+
+
+
+Starting Calculating power
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT)
+ ... Calculating switching power
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 10%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 20%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 30%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 40%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 50%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 60%
+ ... Calculating internal and leakage power
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 70%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 80%
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT): 90%
+
+Finished Calculating power
+2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT)
+Ended Power Computation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1090.01MB/2594.02MB/1090.02MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1090.02MB/2594.02MB/1090.09MB)
+
+Ended Power Analysis: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1090.09MB/2594.02MB/1090.09MB)
+
+Begin Boundary Leakage Calculation
+Ended Boundary Leakage Calculation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=1090.09MB/2594.02MB/1090.10MB)
+Begin Static Power Report Generation
+*----------------------------------------------------------------------------------------
+*	Innovus 20.14-s095_1 (64bit) 04/19/2021 14:41 (Linux 2.6.32-431.11.2.el6.x86_64)
+*	
+*
+* 	Date & Time:	2025-Jul-07 12:01:59 (2025-Jul-07 06:31:59 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: sequence_detector_1011
+*
+*	Liberty Libraries used:
+*	        WORST: /home/user/Desktop/PRIYANSHU_VLSI_SUMMER/sequence_detector_1011_WEEK_3.enc.dat/libs/lib/typ/slow.lib
+*
+*	Parasitic Files used:
+*
+*       Power View : WORST
+*
+*       User-Defined Activity : N.A.
+*
+*       Activity File: N.A.
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: N.A.
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs
+*
+*       report_power
+*
+-----------------------------------------------------------------------------------------
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        0.00096912 	   80.2065%
+Total Switching Power:       0.00023640 	   19.5654%
+Total Leakage Power:         0.00000276 	    0.2280%
+Total Power:                 0.00120828
+-----------------------------------------------------------------------------------------
+
+
+Group                           Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+Sequential                     0.0005899    8.03e-05   1.683e-06   0.0006719       55.61
+Macro                                  0           0           0           0           0
+IO                                     0           0           0           0           0
+Combinational                  0.0003792   0.0001561   1.072e-06   0.0005364       44.39
+Clock (Combinational)                  0           0           0           0           0
+Clock (Sequential)                     0           0           0           0           0
+-----------------------------------------------------------------------------------------
+Total                          0.0009691   0.0002364   2.755e-06    0.001208         100
+-----------------------------------------------------------------------------------------
+
+
+Rail                  Voltage   Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+VDD                       0.9  0.0006682   0.0002032   1.964e-06   0.0008733       72.28
+Default                   0.9  0.0003009           0   7.917e-07   0.0003017       24.97
+ 
+ 
+-----------------------------------------------------------------------------------------
+*	Power Distribution Summary: 
+*              Highest Average Power:      current_state_reg[1] (DFFRX4):        0.0002675
+*              Highest Leakage Power:                      g377 (ACHCONX2):        6.024e-07
+*                Total Cap:      4.92595e-14 F
+*                Total instances in design:    12
+*                Total instances in design with no power:     0
+*                Total instances in design with no activty:     0
+
+*                Total Fillers and Decap:     0
+-----------------------------------------------------------------------------------------
+ 
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=1090.36MB/2594.02MB/1090.41MB)
+
+1
+
+
+
+
+
+innovus 2> report_area
+    Hinst Name         Module Name          Inst Count           Total Area
+------------------------------------------------------------------------
+sequence_detector_1011                              12              390.683
+
