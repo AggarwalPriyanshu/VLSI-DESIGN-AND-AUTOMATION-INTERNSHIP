@@ -1,0 +1,1145 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+Options:	
+Date:		Fri Jul 25 12:47:50 2025
+Host:		vlsidaug8.jiit.ac.in (x86_64 w/Linux 3.10.0-1160.el7.x86_64) (16cores*24cpus*13th Gen Intel(R) Core(TM) i7-13700 30720KB)
+OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+License:
+		invs	Innovus Implementation System	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+[INFO] Loading PVS 20.11 fill procedures
+<CMD> win
+**ERROR: (IMPSYT-16087):	Specify the name of Delay Corner.
+<CMD> set init_gnd_net VSS
+<CMD> set init_lef_file ../../../install/FOUNDRY/digital/180nm/dig/lef/all.lef
+<CMD> set init_verilog OUTPUT_PROJECT_WEEK2/digital_safe.v
+<CMD> set init_mmmc_file Default.view
+<CMD> set init_pwr_net VDD
+<CMD> init_design
+#% Begin Load MMMC data ... (date=07/25 12:56:28, mem=663.4M)
+#% End Load MMMC data ... (date=07/25 12:56:28, total cpu=0:00:00.0, real=0:00:00.0, peak res=663.8M, current mem=663.8M)
+RC_CORNERS
+
+Loading LEF file ../../../install/FOUNDRY/digital/180nm/dig/lef/all.lef ...
+Set DBUPerIGU to M2 pitch 1320.
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[0]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[10]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[11]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[12]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[13]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[14]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[15]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[1]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[2]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[3]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[4]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[5]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[6]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[7]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[8]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[9]' in macro 'rom_512x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[0]' in macro 'ram_256x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[10]' in macro 'ram_256x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[11]' in macro 'ram_256x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (IMPLF-201):	Pin 'Q[12]' in macro 'ram_256x16A' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-201' for more detail.
+**WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+**WARN: (IMPLF-200):	Pin 'PAD' in macro 'PDB04DGZ' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+**WARN: (IMPLF-200):	Pin 'OEN' in macro 'PDB04DGZ' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+**WARN: (IMPLF-200):	Pin 'I' in macro 'PDB04DGZ' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+
+viaInitial starts at Fri Jul 25 12:56:28 2025
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM1 GENERATE.
+Type 'man IMPPP-557' for more detail.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM2 GENERATE.
+Type 'man IMPPP-557' for more detail.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM3 GENERATE.
+Type 'man IMPPP-557' for more detail.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM4 GENERATE.
+Type 'man IMPPP-557' for more detail.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM5 GENERATE.
+Type 'man IMPPP-557' for more detail.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM6 GENERATE.
+Type 'man IMPPP-557' for more detail.
+viaInitial ends at Fri Jul 25 12:56:28 2025
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+Loading view definition file from Default.view
+Reading MAX_TIMING timing library '/home/user/Desktop/Priyanshu_Project/library/slow.lib' ...
+Read 477 cells in library 'slow_1v0' 
+Reading MIN_TIMING timing library '/home/user/Desktop/Priyanshu_Project/library/fast.lib' ...
+Read 477 cells in library 'fast' 
+*** End library_loading (cpu=0.01min, real=0.00min, mem=14.0M, fe_cpu=0.88min, fe_real=8.63min, fe_mem=800.4M) ***
+#% Begin Load netlist data ... (date=07/25 12:56:28, mem=683.4M)
+*** Begin netlist parsing (mem=800.4M) ***
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'OAI211XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'OAI211XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'SEDFFHQX1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'SEDFFHQX1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'EDFFTRX2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'EDFFTRX2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'NOR3X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'NOR3X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'DFFHQX4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'DFFHQX4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'OAI222XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'OAI222XL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'NOR4X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'NOR4X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'NOR4BXL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'NOR4BXL' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'NAND4BBX1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'NAND4BBX1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'MXI2X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'MXI2X4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Created 477 new cells from 2 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist 'OUTPUT_PROJECT_WEEK2/digital_safe.v'
+
+*** Memory Usage v#1 (Current mem = 800.383M, initial mem = 284.301M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=800.4M) ***
+#% End Load netlist data ... (date=07/25 12:56:28, total cpu=0:00:00.0, real=0:00:00.0, peak res=692.8M, current mem=692.8M)
+Top level cell is digital_safe.
+Hooked 954 DB cells to tlib cells.
+** Removed 120 unused lib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell digital_safe ...
+*** Netlist is unique.
+**ERROR: (IMPREPO-102):	Instance alert_reg of the cell DFFRHQX8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance \attempts_reg[1]  of the cell DFFRHQX8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance \current_code_reg[31]  of the cell SDFFRHQX8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance \lock_timer_reg[1]  of the cell DFFRHQX8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance \lock_timer_reg[2]  of the cell DFFRHQX8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance \lock_timer_reg[3]  of the cell DFFRHQX8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance \lock_timer_reg[4]  of the cell DFFRHQX8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance \lock_timer_reg[5]  of the cell DFFRHQX8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance \lock_timer_reg[9]  of the cell DFFRHQX8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance \lock_timer_reg[10]  of the cell DFFRHQX8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance \lock_timer_reg[11]  of the cell DFFRHQX8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance \lock_timer_reg[12]  of the cell DFFRHQX8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance \lock_timer_reg[13]  of the cell DFFRHQX8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance \lock_timer_reg[16]  of the cell DFFRHQX8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance \lock_timer_reg[17]  of the cell DFFRHQX8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance \lock_timer_reg[18]  of the cell DFFRHQX8 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance g5111 of the cell AO21X2 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance g5113 of the cell AO21X2 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance g5114 of the cell AO21X2 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**ERROR: (IMPREPO-102):	Instance g5118 of the cell AO21X2 has no physical library or has wrong dimen-
+sion values (<=0). Check your design setup to make sure the physical
+ library is loaded in and the attributes specified in physical library are correct.
+Type 'man IMPREPO-102' for more detail.
+**WARN: (EMS-27):	Message (IMPREPO-102) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+** info: there are 855 modules.
+** info: there are 329 stdCell insts.
+**ERROR: (IMPREPO-103):	There are 43 instances (9 cells) with no dimension defined.
+
+*** Memory Usage v#1 (Current mem = 846.809M, initial mem = 284.301M) ***
+**WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Horizontal Layer M1 offset = 560 (derived)
+Vertical Layer M2 offset = 660 (derived)
+Generated pitch 0.99 in Metal6 is different from 1.32 defined in technology file in preferred direction.
+Generated pitch 0.56 in Metal5 is different from 1.12 defined in technology file in preferred direction.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+Extraction setup Started 
+Initializing multi-corner RC extraction with 1 active RC Corners ...
+**WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+Type 'man IMPEXT-6202' for more detail.
+Reading Capacitance Table File ../../../install/FOUNDRY/digital/180nm/dig/captable/t018s6mlv.capTbl ...
+Cap table was created using Encounter 10.10-s002_1.
+Process name: t018s6mm.
+Importing multi-corner RC tables ... 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: WORST
+    RC-Corner Name        : RC_CORNERS
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : '../../../install/FOUNDRY/digital/180nm/dig/captable/t018s6mlv.capTbl'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner Technology file: '../../../install/FOUNDRY/digital/180nm/dig/qrc/t018s6mm.tch'
+ 
+ Analysis View: BEST
+    RC-Corner Name        : RC_CORNERS
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : '../../../install/FOUNDRY/digital/180nm/dig/captable/t018s6mlv.capTbl'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner Technology file: '../../../install/FOUNDRY/digital/180nm/dig/qrc/t018s6mm.tch'
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+*Info: initialize multi-corner CTS.
+Reading timing constraints file 'OUTPUT_PROJECT_WEEK2/digital_safe.sdc' ...
+Current (total cpu=0:00:53.0, real=0:08:39, peak res=945.6M, current mem=945.6M)
+**WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File OUTPUT_PROJECT_WEEK2/digital_safe.sdc, Line 9).
+
+**WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File OUTPUT_PROJECT_WEEK2/digital_safe.sdc, Line 10).
+
+digital_safe
+INFO (CTE): Reading of timing constraints file OUTPUT_PROJECT_WEEK2/digital_safe.sdc completed, with 2 WARNING
+Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=952.9M, current mem=952.9M)
+Current (total cpu=0:00:53.0, real=0:08:39, peak res=952.9M, current mem=952.9M)
+**WARN: (TA-976):	Path groups asserted by the group_path constraint are considered by the software to be global in nature - they cannot be restricted to specific constraint modes. Due to this restriction, the group_path constraint is not supported directly in the constraint files which are configured in mode-specific commands such as create_constraint_mode. The current group_path entry will be ignored. You can enter the group_path constraint interactively or as part of a general command script -  where it will be interpreted as global and will be in effect for all modes.
+Total number of combinational cells: 234
+Total number of sequential cells: 105
+Total number of tristate cells: 9
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 CLKBUFX2 BUFX3 BUFX4 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX4 CLKBUFX8 BUFX8 CLKBUFX3
+Total number of usable buffers: 14
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: CLKINVX2 CLKINVX1 CLKINVX12 CLKINVX16 CLKINVX20 INVX1 CLKINVX3 CLKINVX4 INVX12 INVX2 INVX3 CLKINVX8 INVX20 INVX4 INVX16 INVXL INVX8
+Total number of usable inverters: 17
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DLY1X1 DLY4X1 DLY2X1 DLY3X1
+Total number of identified usable delay cells: 4
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPLF-200            4  Pin '%s' in macro '%s' has no ANTENNAGAT...
+WARNING   IMPLF-201           50  Pin '%s' in macro '%s' has no ANTENNADIF...
+WARNING   IMPFP-3961           2  The techSite '%s' has no related standar...
+WARNING   IMPEXT-6202          1  In addition to the technology file, the ...
+WARNING   IMPVL-159          696  Pin '%s' of cell '%s' is defined in LEF ...
+WARNING   IMPPP-557            6  A single-layer VIARULE GENERATE for turn...
+ERROR     IMPREPO-102         43  Instance %s of the cell %s has no physic...
+ERROR     IMPREPO-103          1  There are %d instances (%d cells) with n...
+WARNING   TA-976               1  Path groups asserted by the group_path c...
+WARNING   TCLCMD-1461          2  Skipped unsupported command: %s          
+*** Message Summary: 762 warning(s), 44 error(s)
+
+<CMD> getIoFlowFlag
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -coreMarginsBy die -site tsm3site -r 1 0.8 8 8 8 8
+**WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Horizontal Layer M1 offset = 560 (derived)
+Vertical Layer M2 offset = 660 (derived)
+Generated pitch 0.99 in Metal6 is different from 1.32 defined in technology file in preferred direction.
+Generated pitch 0.56 in Metal5 is different from 1.12 defined in technology file in preferred direction.
+**WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> clearGlobalNets
+<CMD> globalNetConnect VDD -type pgpin -pin VDD -instanceBasename {} -hierarchicalInstance {}
+<CMD> globalNetConnect VSS -type pgpin -pin VSS -instanceBasename {} -hierarchicalInstance {}
+<CMD> clearGlobalNets
+<CMD> globalNetConnect VDD -type pgpin -pin VDD -instanceBasename {} -hierarchicalInstance {}
+<CMD> globalNetConnect VSS -type pgpin -pin VSS -instanceBasename {} -hierarchicalInstance {}
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal6 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+The ring targets are set to core/block ring wires.
+addRing command will consider rows while creating rings.
+addRing command will disallow rings to go over rows.
+addRing command will ignore shorts while creating rings.
+<CMD> addRing -nets {VDD VSS} -type core_rings -follow core -layer {top Metal5 bottom Metal5 left Metal6 right Metal6} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 0.28 bottom 0.28 left 0.46 right 0.46} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 1 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1335.1M)
+Ring generation is complete.
+vias are now being generated.
+addRing created 8 wires.
+ViaGen created 8 vias, deleted 0 via to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+| Metal5 |        4       |       NA       |
+|  Via56 |        8       |        0       |
+| Metal6 |        4       |       NA       |
++--------+----------------+----------------+
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal6 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe will allow jog to connect padcore ring and block ring.
+
+Stripes will stop at the boundary of the specified area.
+When breaking rings, the power planner will consider the existence of blocks.
+Stripes will not extend to closest target.
+The power planner will set stripe antenna targets to none (no trimming allowed).
+Stripes will not be created over regions without power planning wires.
+The entire stripe set will break at the domain if one of the nets is not in the domain.
+addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+Offset for stripe breaking is set to 0.
+<CMD> addStripe -nets {VDD VSS} -layer Metal5 -direction horizontal -width 1.8 -spacing 0.28 -number_of_sets 3 -start_from bottom -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal6 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal6 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+
+Initialize fgc environment(mem: 1337.8M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1337.8M)
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1337.8M)
+Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1337.8M)
+Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1337.8M)
+Starting stripe generation ...
+Non-Default Mode Option Settings :
+  NONE
+Stripe generation is complete.
+vias are now being generated.
+addStripe created 6 wires.
+ViaGen created 12 vias, deleted 0 via to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+| Metal5 |        6       |       NA       |
+|  Via56 |       12       |        0       |
++--------+----------------+----------------+
+<CMD> setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal6 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe will allow jog to connect padcore ring and block ring.
+
+Stripes will stop at the boundary of the specified area.
+When breaking rings, the power planner will consider the existence of blocks.
+Stripes will not extend to closest target.
+The power planner will set stripe antenna targets to none (no trimming allowed).
+Stripes will not be created over regions without power planning wires.
+The entire stripe set will break at the domain if one of the nets is not in the domain.
+addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+Offset for stripe breaking is set to 0.
+<CMD> addStripe -nets {VDD VSS} -layer Metal6 -direction vertical -width 1.8 -spacing 0.46 -number_of_sets 3 -start_from left -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal6 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal6 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+
+Initialize fgc environment(mem: 1337.8M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1337.8M)
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1337.8M)
+Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1337.8M)
+Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1337.8M)
+Starting stripe generation ...
+Non-Default Mode Option Settings :
+  NONE
+Stripe generation is complete.
+vias are now being generated.
+addStripe created 6 wires.
+ViaGen created 30 vias, deleted 0 via to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+|  Via56 |       30       |        0       |
+| Metal6 |        6       |       NA       |
++--------+----------------+----------------+
+<CMD> setSrouteMode -viaConnectToShape { noshape }
+<CMD> sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { Metal1(1) Metal6(6) } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { Metal1(1) Metal6(6) } -nets { VDD VSS } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { Metal1(1) Metal6(6) }
+*** Begin SPECIAL ROUTE on Fri Jul 25 13:36:28 2025 ***
+SPECIAL ROUTE ran on directory: /home/user/Desktop/Priyanshu_Project
+SPECIAL ROUTE ran on machine: vlsidaug8.jiit.ac.in (Linux 3.10.0-1160.el7.x86_64 x86_64 3.54Ghz)
+
+Begin option processing ...
+srouteConnectPowerBump set to false
+routeSelectNet set to "VDD VSS"
+routeSpecial set to true
+srouteBlockPin set to "useLef"
+srouteBottomLayerLimit set to 1
+srouteBottomTargetLayerLimit set to 1
+srouteConnectConverterPin set to false
+srouteCrossoverViaBottomLayer set to 1
+srouteCrossoverViaTopLayer set to 6
+srouteFloatingStripeTarget set to "blockring padring ring stripe ringpin blockpin followpin"
+srouteFollowCorePinEnd set to 3
+srouteJogControl set to "preferWithChanges differentLayer"
+srouteNoViaOnWireShape set to "padring ring stripe blockring blockpin coverpin blockwire corewire followpin iowire"
+sroutePadPinAllPorts set to true
+sroutePreserveExistingRoutes set to true
+srouteRoutePowerBarPortOnBothDir set to true
+srouteStopBlockPin set to "nearestTarget"
+srouteTopLayerLimit set to 6
+srouteTopTargetLayerLimit set to 6
+End option processing: cpu: 0:00:00, real: 0:00:00, peak: 2476.00 megs.
+
+Reading DB technology information...
+Finished reading DB technology information.
+Reading floorplan and netlist information...
+Finished reading floorplan and netlist information.
+Read in 12 layers, 6 routing layers, 1 overlap layer
+Read in 471 macros, 36 used
+Read in 34 components
+  34 core components: 34 unplaced, 0 placed, 0 fixed
+Read in 134 logical pins
+Read in 134 nets
+Read in 2 special nets, 2 routed
+Read in 68 terminals
+2 nets selected.
+
+Begin power routing ...
+**WARN: (IMPSR-1254):	Unable to connect the specified objects, since block pins of the VDD net were not found in the design. Check netlist or change the parameter value to include block pins in the design.
+**WARN: (IMPSR-1256):	Unable to find any CORE class pad pin of the VDD net due to unavailability of the pin or check netlist in the routing area or layer. Change routing area or layer to include the expected pin or check netlist. Alternatively, change port class in the technology file.
+Type 'man IMPSR-1256' for more detail.
+Cannot find any AREAIO class pad pin of net VDD. Check net list, or change port class in the technology file, or change option to include pin in given range.
+**WARN: (IMPSR-1254):	Unable to connect the specified objects, since block pins of the VSS net were not found in the design. Check netlist or change the parameter value to include block pins in the design.
+**WARN: (IMPSR-1256):	Unable to find any CORE class pad pin of the VSS net due to unavailability of the pin or check netlist in the routing area or layer. Change routing area or layer to include the expected pin or check netlist. Alternatively, change port class in the technology file.
+Type 'man IMPSR-1256' for more detail.
+Cannot find any AREAIO class pad pin of net VSS. Check net list, or change port class in the technology file, or change option to include pin in given range.
+CPU time for FollowPin 0 seconds
+CPU time for FollowPin 0 seconds
+  Number of IO ports routed: 0
+  Number of Block ports routed: 0
+  Number of Stripe ports routed: 0
+  Number of Core ports routed: 52
+  Number of Pad ports routed: 0
+  Number of Power Bump ports routed: 0
+  Number of Followpin connections: 26
+End power routing: cpu: 0:00:00, real: 0:00:00, peak: 2538.00 megs.
+
+
+
+ Begin updating DB with routing results ...
+ Updating DB with 0 via definition ...Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+
+sroute created 78 wires.
+ViaGen created 260 vias, deleted 8 vias to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+| Metal1 |       78       |       NA       |
+|  Via12 |       52       |        0       |
+|  Via23 |       52       |        0       |
+|  Via34 |       52       |        0       |
+|  Via45 |       52       |        0       |
+|  Via56 |       52       |        8       |
++--------+----------------+----------------+
+<CMD> saveDesign digital_safe_WEEK3.enc
+#% Begin save design ... (date=07/25 13:38:53, mem=1120.7M)
+% Begin Save ccopt configuration ... (date=07/25 13:38:53, mem=1122.7M)
+% End Save ccopt configuration ... (date=07/25 13:38:53, total cpu=0:00:00.0, real=0:00:00.0, peak res=1123.6M, current mem=1123.6M)
+% Begin Save netlist data ... (date=07/25 13:38:53, mem=1123.6M)
+Writing Binary DB to digital_safe_WEEK3.enc.dat/digital_safe.v.bin in single-threaded mode...
+% End Save netlist data ... (date=07/25 13:38:53, total cpu=0:00:00.0, real=0:00:00.0, peak res=1123.7M, current mem=1123.7M)
+Saving symbol-table file ...
+Saving congestion map file digital_safe_WEEK3.enc.dat/digital_safe.route.congmap.gz ...
+% Begin Save AAE data ... (date=07/25 13:38:53, mem=1123.8M)
+Saving AAE Data ...
+% End Save AAE data ... (date=07/25 13:38:53, total cpu=0:00:00.0, real=0:00:00.0, peak res=1123.8M, current mem=1123.8M)
+Saving preference file digital_safe_WEEK3.enc.dat/gui.pref.tcl ...
+Saving mode setting ...
+Saving global file ...
+% Begin Save floorplan data ... (date=07/25 13:38:53, mem=1127.1M)
+Saving floorplan file ...
+% End Save floorplan data ... (date=07/25 13:38:53, total cpu=0:00:00.0, real=0:00:00.0, peak res=1127.2M, current mem=1127.2M)
+Saving PG file digital_safe_WEEK3.enc.dat/digital_safe.pg.gz, version#2, (Created by Innovus v20.14-s095_1 on Fri Jul 25 13:38:53 2025)
+*** Completed savePGFile (cpu=0:00:00.0 real=0:00:00.0 mem=1407.7M) ***
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+% Begin Save placement data ... (date=07/25 13:38:53, mem=1127.2M)
+** Saving stdCellPlacement_binary (version# 2) ...
+Save Adaptive View Pruning View Names to Binary file
+% End Save placement data ... (date=07/25 13:38:53, total cpu=0:00:00.0, real=0:00:00.0, peak res=1127.3M, current mem=1127.3M)
+% Begin Save routing data ... (date=07/25 13:38:53, mem=1127.3M)
+Saving route file ...
+*** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1407.7M) ***
+% End Save routing data ... (date=07/25 13:38:53, total cpu=0:00:00.0, real=0:00:00.0, peak res=1127.4M, current mem=1127.4M)
+Saving property file digital_safe_WEEK3.enc.dat/digital_safe.prop
+*** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1410.7M) ***
+% Begin Save power constraints data ... (date=07/25 13:38:53, mem=1128.0M)
+% End Save power constraints data ... (date=07/25 13:38:53, total cpu=0:00:00.0, real=0:00:00.0, peak res=1128.1M, current mem=1128.1M)
+RC_CORNERS
+RC_CORNERS
+RC_CORNERS
+Generated self-contained design digital_safe_WEEK3.enc.dat
+#% End save design ... (date=07/25 13:38:53, total cpu=0:00:00.2, real=0:00:00.0, peak res=1157.9M, current mem=1131.3M)
+*** Message Summary: 0 warning(s), 0 error(s)
+
+<CMD> saveNetlist digital_safe_WEEK3.v
+Writing Netlist "digital_safe_WEEK3.v" ...
+<CMD> addEndCap -preCap FILL2 -postCap FILL2 -prefix ENDCAP
+**WARN: (IMPSP-5224):	Option '-preCap' for command addEndCap is obsolete and has been replaced by 'setEndCapMode -rightEdge cell_name'. 
+The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, 
+update your script to use 'setEndCapMode -rightEdge cell_name' and 'addEndCap'.
+**WARN: (IMPSP-5224):	Option '-postcap' for command addEndCap is obsolete and has been replaced by 'setEndCapMode -leftEdge cell_name'. 
+The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, 
+update your script to use 'setEndCapMode -rightEdge cell_name' and 'addEndCap'.
+**WARN: (IMPSP-5534):	'setEndCapMode -leftEdge' and 'setEndCapMode -rightEdge' are using the same endcap cells
+**WARN: (IMPSP-5534):	'setEndCapMode -leftBottomCorner' and 'setEndCapMode -rightBottomCorner' are using the same endcap cells
+**WARN: (IMPSP-5534):	'setEndCapMode -leftTopCorner' and 'setEndCapMode -rightTopCorner' are using the same endcap cells
+Estimated cell power/ground rail width = 0.945 um
+Minimum row-size in sites for endcap insertion = 5.
+Minimum number of sites for row blockage       = 1.
+Inserted 25 pre-endcap <FILL2> cells (prefix ENDCAP).
+Inserted 25 post-endcap <FILL2> cells (prefix ENDCAP).
+For 50 new insts, *** Applied 2 GNC rules (cpu = 0:00:00.0)
+<CMD> addEndCap -preCap FILL2 -postCap FILL2 -prefix ENDCAP
+**WARN: (IMPSP-5224):	Option '-preCap' for command addEndCap is obsolete and has been replaced by 'setEndCapMode -rightEdge cell_name'. 
+The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, 
+update your script to use 'setEndCapMode -rightEdge cell_name' and 'addEndCap'.
+**WARN: (IMPSP-5224):	Option '-postcap' for command addEndCap is obsolete and has been replaced by 'setEndCapMode -leftEdge cell_name'. 
+The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, 
+update your script to use 'setEndCapMode -rightEdge cell_name' and 'addEndCap'.
+**WARN: (IMPSP-5534):	'setEndCapMode -leftEdge' and 'setEndCapMode -rightEdge' are using the same endcap cells
+**WARN: (IMPSP-5534):	'setEndCapMode -leftBottomCorner' and 'setEndCapMode -rightBottomCorner' are using the same endcap cells
+**WARN: (IMPSP-5534):	'setEndCapMode -leftTopCorner' and 'setEndCapMode -rightTopCorner' are using the same endcap cells
+Minimum row-size in sites for endcap insertion = 5.
+Minimum number of sites for row blockage       = 1.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 8.400).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 8.400).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 13.440).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 13.440).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 18.480).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 18.480).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 23.520).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 23.520).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 28.560).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 28.560).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 33.600).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 33.600).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 38.640).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 38.640).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 43.680).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 43.680).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 48.720).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 48.720).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 53.760).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 53.760).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (EMS-27):	Message (IMPSP-5119) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Inserted 0 pre-endcap <FILL2> cells (prefix ENDCAP).
+Inserted 0 post-endcap <FILL2> cells (prefix ENDCAP).
+**ERROR: (IMPSP-5106):	AddEndCap cannot place end cap cells at the ends of the site rows. Most probably there are pre-placed std-cell insts at 'start' of 'some' rows. Remove pre-placed instances and re-run addEndCap again.
+Type 'man IMPSP-5106' for more detail.
+**ERROR: (IMPSP-5106):	AddEndCap cannot place end cap cells at the ends of the site rows. Most probably there are pre-placed std-cell insts at 'end' of 'some' rows. Remove pre-placed instances and re-run addEndCap again.
+Type 'man IMPSP-5106' for more detail.
+For 0 new insts, *** Applied 0 GNC rules.
+<CMD> addEndCap -preCap FILL2 -postCap FILL2 -prefix ENDCAP
+**WARN: (IMPSP-5224):	Option '-preCap' for command addEndCap is obsolete and has been replaced by 'setEndCapMode -rightEdge cell_name'. 
+The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, 
+update your script to use 'setEndCapMode -rightEdge cell_name' and 'addEndCap'.
+**WARN: (IMPSP-5224):	Option '-postcap' for command addEndCap is obsolete and has been replaced by 'setEndCapMode -leftEdge cell_name'. 
+The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, 
+update your script to use 'setEndCapMode -rightEdge cell_name' and 'addEndCap'.
+**WARN: (IMPSP-5534):	'setEndCapMode -leftEdge' and 'setEndCapMode -rightEdge' are using the same endcap cells
+**WARN: (IMPSP-5534):	'setEndCapMode -leftBottomCorner' and 'setEndCapMode -rightBottomCorner' are using the same endcap cells
+**WARN: (IMPSP-5534):	'setEndCapMode -leftTopCorner' and 'setEndCapMode -rightTopCorner' are using the same endcap cells
+Minimum row-size in sites for endcap insertion = 5.
+Minimum number of sites for row blockage       = 1.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 8.400).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 8.400).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 13.440).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 13.440).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 18.480).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 18.480).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 23.520).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 23.520).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 28.560).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 28.560).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 33.600).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 33.600).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 38.640).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 38.640).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 43.680).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 43.680).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 48.720).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 48.720).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Pre-cap cell (FILL2) at (8.580, 53.760).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (IMPSP-5119):	AddEndCap is unable to add Post-cap cell (FILL2) at (140.580, 53.760).
+Type 'man IMPSP-5119' for more detail.
+**WARN: (EMS-27):	Message (IMPSP-5119) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Inserted 0 pre-endcap <FILL2> cells (prefix ENDCAP).
+Inserted 0 post-endcap <FILL2> cells (prefix ENDCAP).
+**ERROR: (IMPSP-5106):	AddEndCap cannot place end cap cells at the ends of the site rows. Most probably there are pre-placed std-cell insts at 'start' of 'some' rows. Remove pre-placed instances and re-run addEndCap again.
+Type 'man IMPSP-5106' for more detail.
+**ERROR: (IMPSP-5106):	AddEndCap cannot place end cap cells at the ends of the site rows. Most probably there are pre-placed std-cell insts at 'end' of 'some' rows. Remove pre-placed instances and re-run addEndCap again.
+Type 'man IMPSP-5106' for more detail.
+For 0 new insts, *** Applied 0 GNC rules.
+<CMD> addWellTap -cell FILL2 -cellInterval 40 -prefix WELLTAP
+**WARN: (IMPSP-5134):	Setting cellInterval to 39.600 (microns) as a multiple of cell FILL2's techSite 'tsm3site' width of 0.660 microns
+Type 'man IMPSP-5134' for more detail.
+For 100 new insts, *** Applied 2 GNC rules (cpu = 0:00:00.0)
+Inserted 100 well-taps <FILL2> cells (prefix WELLTAP).
+<CMD> addWellTap -cell FILL2 -cellInterval 40 -prefix WELLTAP
+**WARN: (IMPSP-5134):	Setting cellInterval to 39.600 (microns) as a multiple of cell FILL2's techSite 'tsm3site' width of 0.660 microns
+Type 'man IMPSP-5134' for more detail.
+For 150 new insts, *** Applied 2 GNC rules (cpu = 0:00:00.0)
+Inserted 150 well-taps <FILL2> cells (prefix WELLTAP).
+<CMD> addWellTap -cell FILL2 -cellInterval 40 -prefix WELLTAP
+**WARN: (IMPSP-5134):	Setting cellInterval to 39.600 (microns) as a multiple of cell FILL2's techSite 'tsm3site' width of 0.660 microns
+Type 'man IMPSP-5134' for more detail.
+For 150 new insts, *** Applied 2 GNC rules (cpu = 0:00:00.0)
+Inserted 150 well-taps <FILL2> cells (prefix WELLTAP).
+<CMD> addWellTap -cell FILL2 -cellInterval 40 -prefix WELLTAP
+**WARN: (IMPSP-5134):	Setting cellInterval to 39.600 (microns) as a multiple of cell FILL2's techSite 'tsm3site' width of 0.660 microns
+Type 'man IMPSP-5134' for more detail.
+For 150 new insts, *** Applied 2 GNC rules (cpu = 0:00:00.0)
+Inserted 150 well-taps <FILL2> cells (prefix WELLTAP).
+<CMD> selectInst WELLTAP_390
+<CMD> deselectAll
+<CMD> selectInst WELLTAP_534
+<CMD> setLayerPreference node_layer -isVisible 0
+<CMD> gui_select -rect {6.75700 128.86850 190.65550 24.78700}
+<CMD> deselectAll
+<CMD> gui_select -append -rect {2.60650 138.12700 148.83100 6.58850}
+<CMD> deleteSelectedFromFPlan
+<CMD> setLayerPreference node_layer -isVisible 1
+<CMD> addWellTap -cell FILL2 -cellInterval 40 -prefix WELLTAP
+**WARN: (IMPSP-5134):	Setting cellInterval to 39.600 (microns) as a multiple of cell FILL2's techSite 'tsm3site' width of 0.660 microns
+Type 'man IMPSP-5134' for more detail.
+For 100 new insts, *** Applied 2 GNC rules (cpu = 0:00:00.0)
+Inserted 100 well-taps <FILL2> cells (prefix WELLTAP).
+<CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+<CMD> setEndCapMode -reset
+<CMD> setEndCapMode -boundary_tap false
+<CMD> setNanoRouteMode -quiet -droutePostRouteSpreadWire 1
+<CMD> setNanoRouteMode -quiet -timingEngine {}
+<CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {DLY3X1 DLY2X1 DLY4X1 DLY1X1 CLKBUFX3 BUFX8 CLKBUFX8 CLKBUFX4 CLKBUFX20 CLKBUFX2 CLKBUFX16 CLKBUFX12 BUFX4 BUFX3 BUFX20 BUFX2 BUFX16 BUFX12 INVXL INVX8 INVX16 INVX4 INVX20 CLKINVX8 INVX3 INVX2 INVX12 INVX1 CLKINVX4 CLKINVX3 CLKINVX20 CLKINVX2 CLKINVX16 CLKINVX12 CLKINVX1} -maxAllowedDelay 1
+<CMD> setPlaceMode -reset
+<CMD> setPlaceMode -congEffort auto -timingDriven 1 -clkGateAware 1 -powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 0 -placeIOPins 1 -moduleAwareSpare 0 -preserveRouting 1 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+<CMD> setPlaceMode -fp false
+<CMD> place_design
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+*** Starting placeDesign default flow ***
+*** Start deleteBufferTree ***
+Info: Detect buffers to remove automatically.
+Analyzing netlist ...
+Updating netlist
+
+*summary: 0 instances (buffers/inverters) removed
+*** Finish deleteBufferTree (0:00:00.0) ***
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+**INFO: Pre-place timing setting for timing analysis already disabled
+Deleted 600 physical insts (cell - / prefix -).
+Did not delete 100 physical insts as they were marked preplaced.
+INFO: #ExclusiveGroups=0
+INFO: There are no Exclusive Groups.
+*** Starting "NanoPlace(TM) placement v#9 (mem=1481.6M)" ...
+*** Build Buffered Sizing Timing Model
+(cpu=0:00:00.3 mem=1481.6M) ***
+*** Build Virtual Sizing Timing Model
+(cpu=0:00:00.4 mem=1481.6M) ***
+No user-set net weight.
+Net fanout histogram:
+2		: 466 (83.1%) nets
+3		: 35 (6.2%) nets
+4     -	14	: 56 (10.0%) nets
+15    -	39	: 2 (0.4%) nets
+40    -	79	: 2 (0.4%) nets
+80    -	159	: 0 (0.0%) nets
+160   -	319	: 0 (0.0%) nets
+320   -	639	: 0 (0.0%) nets
+640   -	1279	: 0 (0.0%) nets
+1280  -	2559	: 0 (0.0%) nets
+2560  -	5119	: 0 (0.0%) nets
+5120+		: 0 (0.0%) nets
+Options: timingDriven clkGateAware ignoreScan pinGuide congEffort=auto gpeffort=medium 
+**WARN: (IMPSP-9042):	Scan chains were not defined, -place_global_ignore_scan option will be ignored.
+Define the scan chains before using this option.
+Type 'man IMPSP-9042' for more detail.
+**ERROR: (IMPSP-281):	Physical library for inst 'alert_reg' of cell type 'DFFRHQX8' is not defined. 
+Most probably the .lef file is not input for the cell type DFFRHQX8. 
+Input the .lef library for cell type DFFRHQX8 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'attempts_reg[1]' of cell type 'DFFRHQX8' is not defined. 
+Most probably the .lef file is not input for the cell type DFFRHQX8. 
+Input the .lef library for cell type DFFRHQX8 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'current_code_reg[31]' of cell type 'SDFFRHQX8' is not defined. 
+Most probably the .lef file is not input for the cell type SDFFRHQX8. 
+Input the .lef library for cell type SDFFRHQX8 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'lock_timer_reg[1]' of cell type 'DFFRHQX8' is not defined. 
+Most probably the .lef file is not input for the cell type DFFRHQX8. 
+Input the .lef library for cell type DFFRHQX8 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'lock_timer_reg[2]' of cell type 'DFFRHQX8' is not defined. 
+Most probably the .lef file is not input for the cell type DFFRHQX8. 
+Input the .lef library for cell type DFFRHQX8 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'lock_timer_reg[3]' of cell type 'DFFRHQX8' is not defined. 
+Most probably the .lef file is not input for the cell type DFFRHQX8. 
+Input the .lef library for cell type DFFRHQX8 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'lock_timer_reg[4]' of cell type 'DFFRHQX8' is not defined. 
+Most probably the .lef file is not input for the cell type DFFRHQX8. 
+Input the .lef library for cell type DFFRHQX8 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'lock_timer_reg[5]' of cell type 'DFFRHQX8' is not defined. 
+Most probably the .lef file is not input for the cell type DFFRHQX8. 
+Input the .lef library for cell type DFFRHQX8 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'lock_timer_reg[9]' of cell type 'DFFRHQX8' is not defined. 
+Most probably the .lef file is not input for the cell type DFFRHQX8. 
+Input the .lef library for cell type DFFRHQX8 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'lock_timer_reg[10]' of cell type 'DFFRHQX8' is not defined. 
+Most probably the .lef file is not input for the cell type DFFRHQX8. 
+Input the .lef library for cell type DFFRHQX8 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'lock_timer_reg[11]' of cell type 'DFFRHQX8' is not defined. 
+Most probably the .lef file is not input for the cell type DFFRHQX8. 
+Input the .lef library for cell type DFFRHQX8 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'lock_timer_reg[12]' of cell type 'DFFRHQX8' is not defined. 
+Most probably the .lef file is not input for the cell type DFFRHQX8. 
+Input the .lef library for cell type DFFRHQX8 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'lock_timer_reg[13]' of cell type 'DFFRHQX8' is not defined. 
+Most probably the .lef file is not input for the cell type DFFRHQX8. 
+Input the .lef library for cell type DFFRHQX8 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'lock_timer_reg[16]' of cell type 'DFFRHQX8' is not defined. 
+Most probably the .lef file is not input for the cell type DFFRHQX8. 
+Input the .lef library for cell type DFFRHQX8 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'lock_timer_reg[17]' of cell type 'DFFRHQX8' is not defined. 
+Most probably the .lef file is not input for the cell type DFFRHQX8. 
+Input the .lef library for cell type DFFRHQX8 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'lock_timer_reg[18]' of cell type 'DFFRHQX8' is not defined. 
+Most probably the .lef file is not input for the cell type DFFRHQX8. 
+Input the .lef library for cell type DFFRHQX8 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'g5111' of cell type 'AO21X2' is not defined. 
+Most probably the .lef file is not input for the cell type AO21X2. 
+Input the .lef library for cell type AO21X2 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'g5113' of cell type 'AO21X2' is not defined. 
+Most probably the .lef file is not input for the cell type AO21X2. 
+Input the .lef library for cell type AO21X2 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'g5114' of cell type 'AO21X2' is not defined. 
+Most probably the .lef file is not input for the cell type AO21X2. 
+Input the .lef library for cell type AO21X2 and re-run placement.
+**ERROR: (IMPSP-281):	Physical library for inst 'g5118' of cell type 'AO21X2' is not defined. 
+Most probably the .lef file is not input for the cell type AO21X2. 
+Input the .lef library for cell type AO21X2 and re-run placement.
+**WARN: (EMS-27):	Message (IMPSP-281) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+#std cell=429 (100 fixed + 329 movable) #buf cell=0 #inv cell=75 #block=0 (0 floating + 0 preplaced)
+#ioInst=0 #net=561 #term=1441 #term/net=2.57, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=134
+stdCell: 386 single + 0 double + 43 multi
+Total standard cell length = 2.7859 (mm), area = 0.0140 (mm^2)
+Average module density = 0.908.
+Density for the design = 0.908.
+       = stdcell_area 4021 sites (13375 um^2) / alloc_area 4431 sites (14738 um^2).
+Pin Density = 0.2853.
+            = total # of pins 1441 / total area 5050.
+=== lastAutoLevel = 6 
+Clock gating cells determined by native netlist tracing.
+Iteration  1: Total net bbox = 9.575e-12 (3.81e-12 5.76e-12)
+              Est.  stn bbox = 1.008e-11 (3.95e-12 6.13e-12)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1462.3M
+Iteration  2: Total net bbox = 9.575e-12 (3.81e-12 5.76e-12)
+              Est.  stn bbox = 1.008e-11 (3.95e-12 6.13e-12)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1462.3M
+Iteration  3: Total net bbox = 4.860e+00 (1.78e+00 3.09e+00)
+              Est.  stn bbox = 5.611e+00 (2.03e+00 3.58e+00)
+              cpu = 0:00:00.0 real = 0:00:00.0 mem = 1463.7M
+Active setup views:
+    WORST
+Iteration  4: Total net bbox = 4.593e+03 (2.64e+03 1.95e+03)
+              Est.  stn bbox = 5.269e+03 (2.99e+03 2.28e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1463.7M
+Iteration  5: Total net bbox = 5.785e+03 (2.89e+03 2.90e+03)
+              Est.  stn bbox = 6.682e+03 (3.32e+03 3.36e+03)
+              cpu = 0:00:00.1 real = 0:00:00.0 mem = 1464.7M
+Iteration  6: Total net bbox = 1.205e+04 (6.81e+03 5.23e+03)
+              Est.  stn bbox = 1.307e+04 (7.32e+03 5.75e+03)
+              cpu = 0:00:00.1 real = 0:00:01.0 mem = 1464.7M
+*** cost = 1.205e+04 (6.81e+03 5.23e+03) (cpu for global=0:00:00.1) real=0:00:01.0***
+Info: 0 clock gating cells identified, 0 (on average) moved 0/1
+Solver runtime cpu: 0:00:00.1 real: 0:00:00.1
+Core Placement runtime cpu: 0:00:00.1 real: 0:00:01.0
+**WARN: (IMPSP-9025):	No scan chain specified/traced.
+Type 'man IMPSP-9025' for more detail.
+*** Starting refinePlace (0:04:31 mem=1483.8M) ***
+Total net bbox length = 1.225e+04 (7.013e+03 5.241e+03) (ext = 4.783e+03)
+Move report: Detail placement moves 286 insts, mean move: 10.85 um, max move: 65.60 um 
+	Max move on inst (csa_tree_ADD_TC_OP_2_groupi_g2160): (89.70, 78.82) --> (34.32, 89.04)
+	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1484.8MB
+Summary Report:
+Instances move: 286 (out of 286 movable)
+Instances flipped: 0
+Mean displacement: 10.85 um
+Max displacement: 65.60 um (Instance: csa_tree_ADD_TC_OP_2_groupi_g2160) (89.7035, 78.8245) -> (34.32, 89.04)
+	Length: 21 sites, height: 1 rows, site name: tsm3site, cell type: ADDFXL
+Total net bbox length = 1.398e+04 (7.134e+03 6.847e+03) (ext = 4.859e+03)
+Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1484.8MB
+*** Finished refinePlace (0:04:31 mem=1484.8M) ***
+*** End of Placement (cpu=0:00:00.8, real=0:00:02.0, mem=1480.8M) ***
+default core: bins with density > 0.750 = 44.44 % ( 4 / 9 )
+Density distribution unevenness ratio = 5.568%
+*** Free Virtual Timing Model ...(mem=1480.8M)
+Starting IO pin assignment...
+The design is not routed. Using placement based method for pin assignment.
+Completed IO pin assignment.
+**INFO: Enable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+**INFO: Analyzing IO path groups for slack adjustment
+**INFO: Disable pre-place timing setting for timing analysis
+Set Using Default Delay Limit as 1000.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Info: Disable timing driven in postCTS congRepair.
+
+Starting congRepair ...
+[NR-eGR] Track table information for default rule: 
+[NR-eGR] Metal1 has no routable track
+[NR-eGR] Metal2 has single uniform track structure
+[NR-eGR] Metal3 has single uniform track structure
+[NR-eGR] Metal4 has single uniform track structure
+[NR-eGR] Metal5 has single uniform track structure
+[NR-eGR] Metal6 has single uniform track structure
+[NR-eGR] Read 572 PG shapes
+[NR-eGR] #Routing Blockages  : 0
+[NR-eGR] #Instance Blockages : 0
+[NR-eGR] #PG Blockages       : 572
+[NR-eGR] #Halo Blockages     : 0
+[NR-eGR] #Boundary Blockages : 0
+[NR-eGR] Num Prerouted Nets = 0  Num Prerouted Wires = 0
+[NR-eGR] Read numTotalNets=561  numIgnoredNets=0
+**WARN: (IMPPSP-2001):	There are 39 pins inside GCell located around position 23.70 94.08. This can make Early Global Router work slower, please verify if those pins are correctly placed.
+**WARN: (IMPPSP-2001):	There are 32 pins inside GCell located around position 33.78 119.28. This can make Early Global Router work slower, please verify if those pins are correctly placed.
+[NR-eGR] ============ Routing rule table ============
+[NR-eGR] Rule id: 0  Nets: 561 
+[NR-eGR] ========================================
+[NR-eGR] 
+[NR-eGR] Layer group 1: route 561 net(s) in layer range [2, 6]
+[NR-eGR] Early Global Route overflow of layer group 1: 0.00% H + 1.12% V. EstWL: 1.419768e+04um
+[NR-eGR] Congestion Analysis By layer: (blocked Gcells are excluded) 
+[NR-eGR]                        OverCon           OverCon           OverCon           OverCon            
+[NR-eGR]                         #Gcell            #Gcell            #Gcell            #Gcell     %Gcell
+[NR-eGR]       Layer              (1-5)            (6-11)           (12-17)           (18-23)    OverCon 
+[NR-eGR] -------------------------------------------------------------------------------------------------
+[NR-eGR]  Metal1  (1)         0( 0.00%)         0( 0.00%)         0( 0.00%)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal2  (2)         7( 0.86%)         2( 0.25%)         0( 0.00%)         2( 0.25%)   ( 1.36%) 
+[NR-eGR]  Metal3  (3)         0( 0.00%)         0( 0.00%)         0( 0.00%)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal4  (4)         0( 0.00%)         0( 0.00%)         0( 0.00%)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal5  (5)         0( 0.00%)         0( 0.00%)         0( 0.00%)         0( 0.00%)   ( 0.00%) 
+[NR-eGR]  Metal6  (6)         0( 0.00%)         0( 0.00%)         0( 0.00%)         0( 0.00%)   ( 0.00%) 
+[NR-eGR] -------------------------------------------------------------------------------------------------
+[NR-eGR] Total                7( 0.18%)         2( 0.05%)         0( 0.00%)         2( 0.05%)   ( 0.28%) 
+[NR-eGR] 
+[NR-eGR] Overflow after Early Global Route (GR compatible) 0.00% H + 0.36% V
+[NR-eGR] Overflow after Early Global Route 0.00% H + 0.93% V
+Early Global Route congestion estimation runtime: 0.01 seconds, mem = 1471.3M
+Local HotSpot Analysis: normalized max congestion hotspot area = 0.00, normalized total congestion hotspot area = 0.00 (area is in unit of 4 std-cell row bins)
+Skipped repairing congestion.
+[NR-eGR] Started Export DB wires ( Curr Mem: 1471.28 MB )
+[NR-eGR] Started Export all nets ( Curr Mem: 1471.28 MB )
+[NR-eGR] Finished Export all nets ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1471.28 MB )
+[NR-eGR] Started Set wire vias ( Curr Mem: 1471.28 MB )
+[NR-eGR] Finished Set wire vias ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1471.28 MB )
+[NR-eGR] Finished Export DB wires ( CPU: 0.00 sec, Real: 0.00 sec, Curr Mem: 1471.28 MB )
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Metal1  (1F) length: 0.000000e+00um, number of vias: 1306
+[NR-eGR] Metal2  (2V) length: 6.083190e+03um, number of vias: 1646
+[NR-eGR] Metal3  (3H) length: 6.559410e+03um, number of vias: 189
+[NR-eGR] Metal4  (4V) length: 1.806055e+03um, number of vias: 40
+[NR-eGR] Metal5  (5H) length: 5.682600e+02um, number of vias: 4
+[NR-eGR] Metal6  (6V) length: 8.288000e+01um, number of vias: 0
+[NR-eGR] Total length: 1.509980e+04um, number of vias: 3185
+[NR-eGR] --------------------------------------------------------------------------
+[NR-eGR] Total eGR-routed clock nets wire length: 0.000000e+00um 
+[NR-eGR] --------------------------------------------------------------------------
+Early Global Route wiring runtime: 0.00 seconds, mem = 1447.3M
+Tdgp not successfully inited but do clear! skip clearing
+End of congRepair (cpu=0:00:00.0, real=0:00:00.0)
+*** Finishing placeDesign default flow ***
+**placeDesign ... cpu = 0: 0: 1, real = 0: 0: 2, mem = 1447.3M **
+Tdgp not successfully inited but do clear! skip clearing
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPDC-1629           2  The default delay limit was set to %d. T...
+ERROR     IMPSP-281           43  Physical library for inst '%s' of cell t...
+WARNING   IMPSP-9025           1  No scan chain specified/traced.          
+WARNING   IMPSP-9042           1  Scan chains were not defined, -place_glo...
+WARNING   IMPPSP-2001          2  There are %d pins inside GCell located a...
+*** Message Summary: 6 warning(s), 43 error(s)
+
+<CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+<CMD> timeDesign -preCTS -pathReports -drvReports -slackReports -numPaths 50 -prefix digital_safe_preCTS -outDir timingReports
+AAE DB initialization (MEM=1449.29 CPU=0:00:00.0 REAL=0:00:00.0) 
+*** timeDesign #1 [begin] : totSession cpu/real = 0:04:37.0/0:59:53.0 (0.1), mem = 1449.3M
+Setting timing_disable_library_data_to_data_checks to 'true'.
+Setting timing_disable_user_data_to_data_checks to 'true'.
+Start to check current routing status for nets...
+All nets are already routed correctly.
+End to check current routing status for nets (mem=1449.3M)
+Extraction called for design 'digital_safe' of instances=429 and nets=564 using extraction engine 'preRoute' .
+**WARN: (IMPEXT-3530):	The process node is not set. Use the command setDesignMode -process <process node> prior to extraction for maximum accuracy and optimal automatic threshold setting.
+Type 'man IMPEXT-3530' for more detail.
+PreRoute RC Extraction called for design digital_safe.
+RC Extraction called in multi-corner(1) mode.
+RCMode: PreRoute
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+PreRoute extraction is honoring NDR/Shielding/ExtraSpace for clock nets.
+Using capacitance table file ...
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+PreRoute RC Extraction DONE (CPU Time: 0:00:00.0  Real Time: 0:00:00.0  MEM: 1449.285M)
+Starting delay calculation for Setup views
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: digital_safe
+# Design Mode: 90nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1475.1)
+Total number of fetched objects 561
+End delay calculation. (MEM=1558 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1530.92 CPU=0:00:00.1 REAL=0:00:00.0)
+*** Done Building Timing Graph (cpu=0:00:00.1 real=0:00:00.0 totSessionCpu=0:04:37 mem=1530.9M)
+
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Setup views included:
+ WORST 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.000  |   N/A   |  0.000  |
+|           TNS (ns):|  0.000  |   N/A   |  0.000  |
+|    Violating Paths:|    0    |   N/A   |    0    |
+|          All Paths:|    0    |   N/A   |    0    |
++--------------------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      1 (1)       |   -0.153   |      1 (1)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 82.907%
+Routing Overflow: 0.00% H and 0.93% V
+------------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 0.16 sec
+Total Real time: 0.0 sec
+Total Memory Usage: 1502.179688 Mbytes
+*** timeDesign #1 [finish] : cpu/real = 0:00:00.2/0:00:00.7 (0.2), totSession cpu/real = 0:04:37.1/0:59:53.6 (0.1), mem = 1502.2M
+<CMD> zoomBox -106.45550 -29.65150 225.65350 271.26500
+<CMD> zoomBox -434.72900 -111.46800 445.84850 686.40350
+**INFO (INTERRUPT): One more Ctrl-C to exit Innovus ...
+**INFO (INTERRUPT): One more Ctrl-C to exit Innovus ...
+Innovus terminated by user interrupt.
+
+*** Memory Usage v#1 (Current mem = 1502.227M, initial mem = 284.301M) ***
+*** Message Summary: 896 warning(s), 93 error(s)
+
+--- Ending "Innovus" (totcpu=0:04:40, real=1:03:07, mem=1502.2M) ---

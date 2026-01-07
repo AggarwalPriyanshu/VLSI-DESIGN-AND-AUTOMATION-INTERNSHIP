@@ -1,0 +1,50 @@
+nclaunch> ncvlog -work worklib -cdslib /home/user/Desktop/Priyanshu_Project/cds.lib -logfile ncvlog.log -errormax 15 -update -linedebug -status /home/user/Desktop/Priyanshu_Project/Project.v 
+ncvlog(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+    input [3:0] master_code [7:0],
+                            |
+ncvlog: *E,EXPCORP (/home/user/Desktop/Priyanshu_Project/Project.v,9|28): Expecting a ',' or ')' [A.1.4(IEEE-2001)].
+    input [3:0] master_code [7:0],
+                            |
+ncvlog: *E,EXPCORP (/home/user/Desktop/Priyanshu_Project/Project.v,9|28): Expecting a ',' or ')' [12.3.2(IEEE)].
+    input [3:0] duress_code [7:0],
+                            |
+ncvlog: *E,EXPCORP (/home/user/Desktop/Priyanshu_Project/Project.v,10|28): Expecting a ',' or ')' [A.1.4(IEEE-2001)].
+    input [3:0] duress_code [7:0],
+                            |
+ncvlog: *E,EXPCORP (/home/user/Desktop/Priyanshu_Project/Project.v,10|28): Expecting a ',' or ')' [12.3.2(IEEE)].
+                lock_timer = 20'd15_000_000; // approx 5 min @50MHz
+                                          |
+ncvlog: *W,INTOVF (/home/user/Desktop/Priyanshu_Project/Project.v,129|42): bit overflow during conversion from text [2.5(IEEE)] (20 bits).
+ncvlog: Memory Usage - 21.4M program + 27.6M data = 49.0M total
+ncvlog: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.0s, 100.0% cpu)
+nclaunch> 
+
+
+
+
+
+
+
+
+
+
+ncvlog -work worklib -cdslib /home/user/Desktop/Priyanshu_Project/cds.lib -logfile ncvlog.log -errormax 15 -update -linedebug -status /home/user/Desktop/Priyanshu_Project/Project.v 
+ncvlog(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+    input [3:0] master_code [7:0],
+                            |
+ncvlog: *E,EXPCORP (/home/user/Desktop/Priyanshu_Project/Project.v,9|28): Expecting a ',' or ')' [A.1.4(IEEE-2001)].
+    input [3:0] master_code [7:0],
+                            |
+ncvlog: *E,EXPCORP (/home/user/Desktop/Priyanshu_Project/Project.v,9|28): Expecting a ',' or ')' [12.3.2(IEEE)].
+    input [3:0] duress_code [7:0],
+                            |
+ncvlog: *E,EXPCORP (/home/user/Desktop/Priyanshu_Project/Project.v,10|28): Expecting a ',' or ')' [A.1.4(IEEE-2001)].
+    input [3:0] duress_code [7:0],
+                            |
+ncvlog: *E,EXPCORP (/home/user/Desktop/Priyanshu_Project/Project.v,10|28): Expecting a ',' or ')' [12.3.2(IEEE)].
+                lock_timer = 20'd15_000_000; // approx 5 min @50MHz
+                                          |
+ncvlog: *W,INTOVF (/home/user/Desktop/Priyanshu_Project/Project.v,129|42): bit overflow during conversion from text [2.5(IEEE)] (20 bits).
+ncvlog: Memory Usage - 21.4M program + 27.7M data = 49.0M total
+ncvlog: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.0s, 100.0% cpu)
+nclaunch> 

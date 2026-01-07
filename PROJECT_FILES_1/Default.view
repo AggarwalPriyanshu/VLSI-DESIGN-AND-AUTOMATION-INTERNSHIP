@@ -1,0 +1,11 @@
+# Version:1.0 MMMC View Definition File
+# Do Not Remove Above Line
+create_rc_corner -name RC_CORNERS -cap_table {../../../install/FOUNDRY/digital/180nm/dig/captable/t018s6mlv.capTbl} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0} -qx_tech_file {../../../install/FOUNDRY/digital/180nm/dig/qrc/t018s6mm.tch}
+create_library_set -name MAX_TIMING -timing {library/slow.lib}
+create_library_set -name MIN_TIMING -timing {library/fast.lib}
+create_constraint_mode -name CONSTRAINTS -sdc_files {OUTPUT_PROJECT_WEEK2/digital_safe.sdc}
+create_delay_corner -name MAX_DELAY -library_set {MAX_TIMING} -rc_corner {RC_CORNERS}
+create_delay_corner -name MIN_DELAY -library_set {MIN_TIMING} -rc_corner {RC_CORNERS}
+create_analysis_view -name BEST -constraint_mode {CONSTRAINTS} -delay_corner {MIN_DELAY}
+create_analysis_view -name WORST -constraint_mode {CONSTRAINTS} -delay_corner {MAX_DELAY}
+set_analysis_view -setup {WORST} -hold {BEST}
