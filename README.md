@@ -6,35 +6,44 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## 📌 Project Overview
-This repository documents a comprehensive **VLSI Design and Automation** internship journey. The work spans from fundamental waveform analysis and transistor-level logic to the complete physical implementation (GDSII) of a complex ASIC.
+This repository documents a comprehensive **VLSI Design and Automation** internship journey. The work spans from fundamental waveform analysis to the physical implementation (GDSII) of a complex ASIC.
 
-The project highlights the transition from generating **50+ waveforms** to synthesizing architectures and performing full **Floorplanning, Power Planning, Routing, and Static Timing Analysis (STA)** using industry-standard Cadence tools.
+The project highlights the transition from generating **50+ waveforms** in the first week to executing the full backend flow—including **Synthesis, Floorplanning, CTS, and STA**—for various digital architectures.
 
 ---
 
 ## 🗓️ 6-Week Technical Roadmap
 
 ### **Week 1: High-Volume Waveform Generation**
-- Mastered the **Cadence Xcelium/Virtuoso** environment for functional verification.
-- Generated and verified **50+ signal waveforms** to analyze propagation delays and logic transitions.
+- Mastered **Cadence Xcelium** for high-performance functional verification.
+- Generated and analyzed **50+ waveforms** to verify logic transitions and timing behavior.
 
-### **Week 2 & 3: Logic Synthesis (Cadence Genus)**
-- Executed logic synthesis for **10 distinct digital circuits**.
-- Generated gate-level netlists and professional reports for **Area, Power, and Timing**.
+### **Week 2: Logic Synthesis & Reporting**
+- Synthesized **10+ digital circuits** using **Cadence Genus**.
+- Documented comprehensive outputs for each:
+  - Gate-level Netlists.
+  - Area, Power, and Timing Reports.
+  - Schematic Gate Visualizations.
 
-### **Week 4: Physical Design & Area Planning (Cadence Innovus)**
-- Performed end-to-end Physical Design for three core architectures:
-  - **Full Adder** (Combinational Logic Optimization).
-  - **Sequence Detector** (Sequential Logic & FSM).
-  - **Traffic Light Controller** (Complex System Routing).
-- Completed **Floorplanning, Power Planning (VDD/VSS Rings & Stripes), and Detailed Routing**.
+### **Week 3: Floorplanning & Area Planning**
+- Focus on 3 core circuits: **Full Adder** (Combinational), **Sequence Detector** (Sequential), and **Traffic Light Controller** (System).
+- Defined core/die boundaries, aspect ratios, and I/O pin placement in **Cadence Innovus**.
 
-### **Week 5: Timing Closure (STA)**
-- Conducted **Static Timing Analysis (STA)** on all physical layouts to ensure hardware reliability.
-- Verified **Setup and Hold times** across critical paths to achieve sign-off with zero violations.
+### **Week 4: Power Planning, CTS & Routing**
+- Applied advanced physical design steps to the 3 target circuits:
+  - **Power Planning:** Designing VDD/VSS rings and stripes for robust power delivery.
+  - **Clock Tree Synthesis (CTS):** Balancing clock skew and minimize insertion delay.
+  - **Routing:** Detailed signal routing with zero DRC violations.
+
+
+
+### **Week 5: Static Timing Analysis (STA)**
+- Performed sign-off timing verification on the 3 primary designs.
+- Analyzed Setup/Hold constraints and critical paths to ensure frequency targets were met.
 
 ### **Week 6: Capstone Project - Digital Safe**
-- Implemented a complete **RTL-to-GDSII** flow for a hardware-ready Digital Safe system.
+- Executed the **entire RTL-to-GDSII flow** for a custom Verilog-based **Digital Safe System**.
+- Integrated multi-layer security features: 32-bit comparison, Master Code, and Duress Alarm logic.
 
 ---
 
@@ -42,12 +51,10 @@ The project highlights the transition from generating **50+ waveforms** to synth
 A Verilog-based security system designed for ASIC implementation, featuring multi-layer authentication and emergency state-machine logic.
 
 ### **Key Logic Features**
-- **32-bit Encryption:** High-width code comparison logic for secure access.
-- **Master Code Override:** Integrated emergency access protocol for administrative override.
+- **32-bit Encryption:** High-width code comparison logic.
+- **Master Code Override:** Integrated emergency access protocol.
 - **Duress Alarm:** Triggers a silent **alert** signal if a specific duress code is entered.
-- **Auto-Lockout:** A sequential timer-based lock triggers a hard-lock state after 3 failed attempts.
-
-
+- **Auto-Lockout:** Timer-based lock triggers after 3 failed attempts.
 
 ### **Verilog Implementation (Authentication Logic)**
 ```verilog
