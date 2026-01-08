@@ -97,10 +97,13 @@ end
 
 ## 👤 Author
 
-**Priyanshu Aggarwal** *Electronics & Communication Engineering* 📧 **Email:** [Priyanshuaggarwal.in@gmail.com](mailto:Priyanshuaggarwal.in@gmail.com)  
-🔗 **LinkedIn:** [priyanshu1201](https://linkedin.com/in/priyanshu1201)  
-💻 **GitHub:** [AggarwalPriyanshu](https://github.com/AggarwalPriyanshu)
+**Priyanshu Aggarwal**  
+Electronics & Communication Engineering  
+
+📧 Email: Priyanshuaggarwal.in@gmail.com  
+🔗 LinkedIn: https://linkedin.com/in/priyanshu1201  
+💻 GitHub: https://github.com/AggarwalPriyanshu  
 
 ---
 
-⭐ **If you find this repository useful, feel free to star it!**
+⭐ If you find this repository useful, feel free to star it!
