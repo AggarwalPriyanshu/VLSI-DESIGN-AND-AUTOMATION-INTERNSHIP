@@ -83,14 +83,43 @@ end
 ---
 ```
 📂 Repository Structure
-├── 📈 01_Waveforms/             # 50+ Simulation Result Screenshots
-├── ⚙️ 02_Synthesis_Genus/       # Netlists & Reports (10 Circuits)
-├── 🏗️ 03_Physical_Design/       # Innovus Layouts (Adder, Seq Det, TLC)
-├── 🛡️ 04_Capstone_DigitalSafe/  # Digital Safe RTL & Implementation
-└── 🎓 05_Documentation/
-    ├── Weekly_Reports_1_6.pdf   # Weekly milestone logs
-    ├── Training_Diary.pdf       # Daily activity log
-    └── Final_Project_Report.pdf # Comprehensive Technical Thesis
+VLSI-DESIGN-AND-AUTOMATION-INTERNSHIP/
+│
+├── 📁 01_Week1_Simulation_Waveforms/
+│   ├── 📈 Waveform_Collection/          # 50+ signal verification screenshots
+│   └── 📄 Simulation_Logs.txt           # Cadence Xcelium console outputs
+│
+├── 📁 02_Week2_Logic_Synthesis/
+│   ├── 📂 10_Circuit_Netlists/          # Gate-level netlists for all 10 designs
+│   ├── 📂 Synthesis_Reports/            # Area, Power, and Timing .rpt files
+│   └── 🖼️ Gate_Schematics/              # Visual gate-level diagrams from Genus
+│
+├── 📁 03_Week3_Floorplanning/
+│   ├── 📐 Full_Adder_Area_Plan/         # Core/Die boundary & Pin placement
+│   ├── 📐 Seq_Detector_Area_Plan/       # Aspect ratio & macro placement
+│   └── 📐 Traffic_Light_Area_Plan/      # I/O port distribution
+│
+├── 📁 04_Week4_Physical_Implementation/
+│   ├── ⚡ Power_Planning/               # VDD/VSS Rings & Stripes screenshots
+│   ├── 🕒 CTS_Results/                 # Clock Tree Synthesis & Skew reports
+│   └── 🗺️ Detailed_Routing/             # Final signal routing (GDSII views)
+│
+├── 📁 05_Week5_Timing_Analysis/
+│   ├── ⏱️ Setup_Hold_Reports/           # STA sign-off for 3 primary circuits
+│   └── 📊 Critical_Path_Analysis/       # Timing slack and path delays
+│
+├── 📁 06_Week6_Capstone_DigitalSafe/
+│   ├── 💾 RTL_Source/                   # digital_safe.v & tb_digital_safe.v
+│   ├── ⚙️ Synthesis_Results/            # Final optimized Netlist
+│   ├── 🏗️ Physical_Layout/              # Final routed view & GDSII data
+│   └── 📈 Verification_Waveforms/       # Master/Duress code logic tests
+│
+├── 📁 07_Documentation/
+│   ├── 📝 Weekly_Reports_1-6.pdf        # Detailed weekly milestone logs
+│   ├── 📖 Internship_Diary.pdf          # Daily activity and supervisor logs
+│   └── 🎓 Final_Internship_Report.pdf   # Full technical thesis
+│
+└── 📄 README.md                         # Project overview and technical summary
 ```
 
 ## 📚 Learning Outcomes
